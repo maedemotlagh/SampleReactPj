@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "HarmoniaSansReg" ;
+    src: url(../../font/HarmoniaSansProCyr-SemiBd.woff);
+}
+
+.form{
+  margin-top: 30px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__title{
+    margin-bottom: 20px;
+    font-family: "HarmoniaSansReg";
+    font-size: 25px;
+    color: #46474d;
+  }
+
+  &__container{
+    border: 1px solid lightgray;
+    width: 500px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 17px 2px lightgray;
+
+    &__item{
+        margin: 35px 0;
+
+        & > div{
+            flex-direction: column;
+
+            .ant-form-item-label{
+                direction: ltr;
+                text-align: left;
+            }
+
+            input{
+                border: 1px solid lightblue;
+            }
+        }
+    }
+
+
+    &__btns{
+        margin-top: 80px;
+    }
+  }
+}

@@ -6,11 +6,11 @@ import './navbarstyle.scss';
 const MenuList = [
     {
         title : 'formValidate',
-        link :'#'
+        link :'/'
     },
     {
         title : 'PassValidate',
-        link :'#'
+        link :'/passValidate'
     },
     {
         title : 'passCheck',

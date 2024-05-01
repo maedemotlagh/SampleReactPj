@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "HarmoniaSansReg" ;
+    src: url(../../font/HarmoniaSansProCyr-SemiBd.woff);
+}
+
+
+.cryptoSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+    &__title{
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "HarmoniaSansReg";
+    }
+
+    &__container{
+        width: 600px;
+
+        &__searchBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            input{
+                border: 1px solid #eaeaea;
+                outline: none;
+                border-radius: 30px;
+                width: 415px;
+                height: 30px;
+                padding: 5px 10px;
+                box-shadow: 3px 3px 13px -7px #9f9f9f;
+            }
+        }
+
+
+        &__cryptoData{
+            &__header{
+                display: flex;
+                margin-top: 60px;
+                justify-content: space-between;
+                align-items: center;
+                font-family: "HarmoniaSansReg";
+                background-color: #e0e0e0;
+                padding: 5px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+
+                span{
+                    font-family: "HarmoniaSansReg" ;
+                    color: #46474d;
+                    font-size: 14px;
+                    min-width: 120px;
+                    text-align: center;
+                }
+            }
+
+            &__datas{
+                & > div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    margin-bottom: 10px;
+                    
+                    span{
+                        font-family: "HarmoniaSansReg" ;
+                        color: #46474d;
+                        font-size: 14px;
+                        min-width: 120px;
+                        width: 120px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

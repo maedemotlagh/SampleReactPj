@@ -13,8 +13,8 @@ const MenuList = [
         link :'/passValidate'
     },
     {
-        title : 'passCheck',
-        link :'#'
+        title : 'cryptoSearch',
+        link :'/cryptoSearch'
     },
 ]
 
